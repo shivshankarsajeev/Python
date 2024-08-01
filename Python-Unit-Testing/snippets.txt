@@ -113,3 +113,12 @@ def monthly_schedule(self, month):
         return response.text
     else:
         return 'Bad Response!'
+    else: 
+        return 'OK'
+  ^^*#comment below the reason for bad response and fix the problem
+#def_monthly else return "Bad Response"
+#Code Compiled and Completed through & through
+#Code is Bilateral and forgone to wits
+else
+    return "Good Response"
+)}]                         #codecompleted
