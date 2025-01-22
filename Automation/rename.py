@@ -40,9 +40,9 @@ for f in os.listdir():
     # You have the power to reformat in any way you see fit
     print('{}-{}{}'.format(f_number, f_title.strip(), file_ext.strip()))
 
-    new_name = '{}-{}{}'.format(file_num, file_title, file_ext)
+    new_name = '{}-{}{}'.format(f_number, f_title, file_ext)
 
-    os.rename(fn, new_name)
+    os.rename(file_name, new_name)
 
 
 # print(len(os.listdir()))
